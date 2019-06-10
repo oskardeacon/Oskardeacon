@@ -1,0 +1,33 @@
+body{
+    background-color:#F65D3D;
+    font-size:14px;
+    font-weight:bolder;
+    font-family:verdana, sans-serif;
+}
+
+main{
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    width:950px
+    height:768px;
+}
+
+.thumbnails img {
+    height: 50px;
+    border: 4px solid #555;
+    padding: 1px;
+    margin: 0 10px 10px 0;
+    vertical-align: inherit
+}
+
+.thumbnails img:hover {
+    border: 4px solid #F40000;
+    cursor:pointer;
+}
+
+.preview img {
+    border: 4px solid #444;
+    padding: 1px;;
+    height: 380px;
+}
